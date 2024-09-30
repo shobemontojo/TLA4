@@ -13,15 +13,15 @@ class _CreateNoteState extends State<CreateNote> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Create note'),
+        title: const Text('Create note'),
       ),
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => EditNote()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const EditNote()));
             },
-            child: const Text('go to edit')),
+            child: const Text('Go to Edit')),
       ),
     );
   }
