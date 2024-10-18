@@ -13,7 +13,7 @@ class _CreateNoteState extends State<CreateNote> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create note'),
+        title: const Text('Create Note'),
       ),
       body: Center(
         child: ElevatedButton(

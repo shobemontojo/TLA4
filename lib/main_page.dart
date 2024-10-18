@@ -13,13 +13,13 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main Page'),
+        title: const Text('Main Page'),
       ),
       body: Center(
         child: ElevatedButton(
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CreateNote()));
+                  MaterialPageRoute(builder: (context) => const CreateNote()));
             },
             child: const Text('create')),
       ),

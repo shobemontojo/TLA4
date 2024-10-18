@@ -13,13 +13,13 @@ class _DeleteNoteState extends State<DeleteNote> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Delete'),
+        title: const Text('Delete'),
       ),
       body: Center(
         child: ElevatedButton(
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => LoginPage()));
+                  MaterialPageRoute(builder: (context) => const LoginPage()));
             },
             child: const Text('go to login')),
       ),
